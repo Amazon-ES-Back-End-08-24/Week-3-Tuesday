@@ -1,10 +1,11 @@
+import classes.Toaster;
 import classes.animals.Human;
 import classes.animals.Mammal;
 import classes.shapes.Square;
-import classes.Toaster;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
@@ -41,13 +42,26 @@ public class Main {
         BigDecimal displayValue = sum.setScale(1, RoundingMode.HALF_DOWN);
         System.out.println(displayValue);
 
-        displayValue = difference.setScale(2,RoundingMode.HALF_EVEN);
+        displayValue = difference.setScale(2, RoundingMode.HALF_EVEN);
         System.out.println(displayValue);
 
-        displayValue = product.setScale(2,RoundingMode.HALF_UP);
+        displayValue = product.setScale(2, RoundingMode.HALF_UP);
         System.out.println(displayValue);
 
         displayValue = division.setScale(1, RoundingMode.HALF_DOWN);
         System.out.println(displayValue);
+
+        // array[] tamaño fijo , todos los tipos de datos (primitivos o no)
+        String[] names = {"Boris", "Nico", "Haroldo", "Sarai"};
+        System.out.println(names.length);
+
+        // solo objetos
+        //ArrayList<TipoDeDato> nombreVariable = new ArrayList<>();
+        ArrayList<String> namesArrayList = new ArrayList<>();
+        namesArrayList.add("Boris");
+        namesArrayList.add("Nico");
+        namesArrayList.add("Haroldo");
+        namesArrayList.add("Sarai");
+        System.out.println(namesArrayList.size());
     }
 }
