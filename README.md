@@ -1,10 +1,6 @@
 # Week 3
 # Tabla de Contenidos
 
-Aquí tienes la tabla de contenidos modificada para ajustarse mejor al contenido proporcionado:
-
-# Tabla de Contenidos
-
 - [Introducción a ArrayList, Interfaces, Clases Abstractas y BigDecimal](#introducción-a-arraylist-interfaces-clases-abstractas-y-bigdecimal)
     - [¿Por qué utilizar estos conceptos?](#por-qué-utilizar-estos-conceptos)
     - [Conceptos Básicos](#conceptos-básicos)
